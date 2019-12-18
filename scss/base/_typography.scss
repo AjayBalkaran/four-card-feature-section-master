@@ -1,0 +1,18 @@
+/* ============================================= */
+/*                   Typography                  */
+/* ============================================= */
+
+body {
+    font-size: $font-sizeBody;
+    font-family: $font-primary;
+}
+
+.attribution { 
+    font-size: $font-sizeFooter; 
+    text-align: center; 
+}
+.attribution a {
+    color: $color-link; 
+}
+
+
