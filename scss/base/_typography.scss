@@ -5,6 +5,15 @@
 body {
     font-size: $font-sizeBody;
     font-family: $font-primary;
+    color: $color-grayishBlue;
+}
+
+.card h2 {
+    color: $color-darkBlue;
+}
+
+.card p {
+    line-height: 2;
 }
 
 .attribution { 

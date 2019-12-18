@@ -1,0 +1,46 @@
+// ======================================
+//                 Cards
+// ======================================
+
+.card {
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 2%;
+}
+
+.card h2,
+.card p {
+    margin-left: 1rem;
+}
+
+.card h2 {
+    margin-bottom: 0;
+}
+
+.card p {
+    margin-right: 2.5em;
+}
+
+.card img {
+    align-self: flex-end;
+    padding-left: 70%;
+    margin: 1em 0;
+}
+
+// Card top colors 
+.supervisor {
+    border-top: 3px solid $color-cyan;
+}
+
+.teamBuilder {
+    border-top: 3px solid $color-red;
+}
+
+.karma {
+    border-top: 3px solid$color-orange;
+}
+
+.calculator {
+    border-top: 3px solid $color-blue;
+}
