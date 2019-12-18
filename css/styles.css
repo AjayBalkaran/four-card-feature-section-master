@@ -382,6 +382,9 @@ p {
   display: flex;
   flex-flow: row wrap;
   border-radius: 2%;
+  margin: 1em auto 2em;
+  width: 85%;
+  box-shadow: 0 10px 10px 0 #a3a5ae;
 }
 
 .card h2,
