@@ -359,6 +359,7 @@ h1 {
 }
 
 .heading,
+h1,
 .card h2 {
   color: #4c4e61;
 }
@@ -425,6 +426,10 @@ header {
   width: 90%;
   margin: auto;
   text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.25em;
 }
 
 header p {

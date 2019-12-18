@@ -30,17 +30,17 @@
 
 // Card top colors 
 .supervisor {
-    border-top: 3px solid $color-cyan;
+   @include borderTop($color-cyan);
 }
 
 .teamBuilder {
-    border-top: 3px solid $color-red;
+    @include borderTop($color-red);
 }
 
 .karma {
-    border-top: 3px solid$color-orange;
+    @include borderTop($color-orange);
 }
 
 .calculator {
-    border-top: 3px solid $color-blue;
+    @include borderTop($color-blue);
 }
