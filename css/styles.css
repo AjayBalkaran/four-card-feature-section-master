@@ -364,7 +364,7 @@ h1 {
 }
 
 p {
-  line-height: 2;
+  line-height: 1.7;
 }
 
 .attribution {
@@ -416,6 +416,21 @@ p {
 
 .calculator {
   border-top: 3px solid #549ef2;
+}
+
+/* ============================================= */
+/*                     Header                    */
+/* ============================================= */
+header {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.1em;
+  margin-bottom: 4.5em;
+  margin-top: 2em;
 }
 
 /*# sourceMappingURL=styles.css.map */
