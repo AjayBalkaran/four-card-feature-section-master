@@ -354,6 +354,12 @@ h1,
 .heading {
   font-size: 1.75em;
 }
+@media (min-width: 1440px) {
+  h1,
+.heading {
+    font-size: 2.7em;
+  }
+}
 
 h1 {
   font-weight: 400;
@@ -378,6 +384,9 @@ p {
   color: #3e52a3;
 }
 
+/* ============================================= */
+/*                     card                      */
+/* ============================================= */
 .card {
   padding: 1em;
   display: flex;
@@ -386,6 +395,12 @@ p {
   margin: 1em auto 2em;
   width: 85%;
   box-shadow: 0 10px 10px 0 #a3a5ae;
+}
+@media (min-width: 1440px) {
+  .card {
+    height: 225.172px;
+    width: 75%;
+  }
 }
 
 .card h2,
@@ -404,11 +419,16 @@ p {
 .card img {
   align-self: flex-end;
   padding-left: 70%;
-  margin: 1em 0;
+  margin: 1.25em 0;
 }
 
 .supervisor {
   border-top: 3px solid #45d3d3;
+}
+@media (min-width: 1440px) {
+  .supervisor {
+    margin: auto 0 auto 90px;
+  }
 }
 
 .teamBuilder {
@@ -422,6 +442,11 @@ p {
 .calculator {
   border-top: 3px solid #549ef2;
 }
+@media (min-width: 1440px) {
+  .calculator {
+    margin: auto 90px auto 0;
+  }
+}
 
 /* ============================================= */
 /*                     Header                    */
@@ -430,6 +455,12 @@ header {
   width: 90%;
   margin: auto;
   text-align: center;
+}
+@media (min-width: 1440px) {
+  header {
+    width: 40%;
+    margin-top: 4em;
+  }
 }
 
 header h1 {
@@ -440,6 +471,45 @@ header p {
   font-size: 1.1em;
   margin-bottom: 4.5em;
   margin-top: 2em;
+}
+
+/* ============================================= */
+/*                     Grid                      */
+/* ============================================= */
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-template-areas: "supervisor" "teamBuilder" "karma" "calculator";
+}
+@media (min-width: 1440px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "supervisor teamBuilder calculator" "supervisor karma calculator";
+  }
+}
+
+.supervisor {
+  grid-area: supervisor;
+}
+
+.teamBuilder {
+  grid-area: teamBuilder;
+}
+
+.karma {
+  grid-area: karma;
+}
+
+.calculator {
+  grid-area: calculator;
+}
+
+/* ============================================= */
+/*                     Footer                    */
+/* ============================================= */
+.attribution {
+  margin-top: 3.25rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

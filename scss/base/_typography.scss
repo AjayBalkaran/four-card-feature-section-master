@@ -9,9 +9,13 @@ body {
     background-color: $color-lightGray
 }
 
+
 h1, 
 .heading {
     font-size: 1.75em;
+    @include mq('desktop') {
+        font-size: 2.7em;
+    }
 }
 
 h1 {

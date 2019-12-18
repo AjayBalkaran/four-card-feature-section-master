@@ -1,6 +1,6 @@
-// ======================================
-//                 Cards
-// ======================================
+/* ============================================= */
+/*                     card                      */
+/* ============================================= */
 
 .card {
     padding: 1em;
@@ -10,6 +10,11 @@
     margin: 1em auto 2em;
     width: 85%;
     box-shadow: 0 10px 10px 0 $color-grayishBlue;
+
+    @include mq('desktop') {
+        height: 225.172px;
+        width: 75%;
+    }
 }
 
 .card h2,
@@ -28,12 +33,16 @@
 .card img {
     align-self: flex-end;
     padding-left: 70%;
-    margin: 1em 0;
+    margin: 1.25em 0;
 }
 
-// Card top colors 
+
 .supervisor {
    @include borderTop($color-cyan);
+   
+   @include mq('desktop') {
+       margin: auto 0 auto 90px;
+    }
 }
 
 .teamBuilder {
@@ -46,4 +55,9 @@
 
 .calculator {
     @include borderTop($color-blue);
+
+    @include mq('desktop') {
+        margin: auto 90px auto 0;
+    }
 }
+
