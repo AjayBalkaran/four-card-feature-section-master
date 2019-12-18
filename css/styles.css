@@ -399,7 +399,7 @@ p {
 @media (min-width: 1440px) {
   .card {
     height: 225.172px;
-    width: 75%;
+    width: 320.25px;
   }
 }
 
@@ -427,7 +427,7 @@ p {
 }
 @media (min-width: 1440px) {
   .supervisor {
-    margin: auto 0 auto 90px;
+    margin: auto 0 auto 8.125rem;
   }
 }
 
@@ -444,7 +444,7 @@ p {
 }
 @media (min-width: 1440px) {
   .calculator {
-    margin: auto 90px auto 0;
+    margin: auto 8.125rem auto 0;
   }
 }
 

@@ -13,7 +13,7 @@
 
     @include mq('desktop') {
         height: 225.172px;
-        width: 75%;
+        width: 320.250px;
     }
 }
 
@@ -41,7 +41,7 @@
    @include borderTop($color-cyan);
    
    @include mq('desktop') {
-       margin: auto 0 auto 90px;
+       margin: auto 0 auto 8.125rem;
     }
 }
 
@@ -57,7 +57,7 @@
     @include borderTop($color-blue);
 
     @include mq('desktop') {
-        margin: auto 90px auto 0;
+        margin: auto 8.125rem auto 0;
     }
 }
 
