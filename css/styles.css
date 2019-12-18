@@ -349,11 +349,21 @@ body {
   color: #a3a5ae;
 }
 
+h1,
+.heading {
+  font-size: 1.75em;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.heading,
 .card h2 {
   color: #4c4e61;
 }
 
-.card p {
+p {
   line-height: 2;
 }
 
